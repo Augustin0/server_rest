@@ -4,13 +4,19 @@
     "description": "Server rest",
     "main": "index.js",
     "scripts": {
-        "start": "node ./SERVER/server.js",
+        "start": "nodemon ./SERVER/server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "Skenshee AAugustin",
     "license": "ISC",
     "dependencies": {
+        "bcrypt": "^5.0.0",
         "body-parser": "^1.19.0",
-        "express": "^4.17.1"
+        "colors": "^1.4.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.11.13",
+        "mongoose-unique-validator": "^2.0.3"
     }
 }
